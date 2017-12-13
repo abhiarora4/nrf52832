@@ -1,0 +1,21 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# jumper_no-RESCUE-nrf52
+#
+DEF jumper_no-RESCUE-nrf52 U 0 40 Y Y 1 F N
+F0 "U" -4 81 39 H V C CNN
+F1 "jumper_no-RESCUE-nrf52" -21 -88 39 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+A 10 0 50 -899 899 0 1 4 N 10 -50 10 50
+P 2 0 1 4 -10 50 -10 -50 N
+P 2 0 1 4 10 50 10 -50 N
+A -10 0 50 901 -901 1 1 4 N -10 50 -10 -50
+X ~ 1 -140 0 79 R 20 20 1 1 B
+X ~ 2 140 0 79 L 20 20 1 1 B
+ENDDRAW
+ENDDEF
+#
+#End Library
